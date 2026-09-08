@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+
+# Large model artifacts and datasets
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.zip
+*.tar
+*.gz
+/data/
+/TestData/
+
+# Logs and temp files
+*.log
+*.tmp
